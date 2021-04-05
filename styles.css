@@ -1,0 +1,56 @@
+body {
+    --background-color: #272727;
+    --primary-color: #FF652F;
+    --icon-color: #FF652F;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: 'Poppins', cursive;
+    vertical-align: baseline;
+    box-sizing: border-box;
+
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.logo {
+    width: 100%;
+    max-width: 500px;
+    fill: var(--primary-color);
+}
+.links {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    padding-right: 8px;
+}
+
+.icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    margin: 16px 8px;
+    filter: invert(37%) sepia(6%) saturate(340%) hue-rotate(212deg) brightness(91%) contrast(88%);
+}
+.icon-github {
+    background-image: url(./images/github.svg);
+}
+.icon-linkedin {
+    background-image: url(./images/linkedin.svg);
+}
+.icon-instagram {
+    background-image: url(./images/instagram.svg);
+}
